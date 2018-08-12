@@ -6,6 +6,6 @@ library identifier: 'jenkins-pipeline-utils@master', retriever: modernSCM(
          credentialsId: 'github'])
 
 node {
-	utils.deployToEnvironment()
+	utils()
 }
 

@@ -1,4 +1,4 @@
-def deployToEnvironment(){
+def call(){
         stage("Deploy") {
             echo "Deploying new job"
         }
